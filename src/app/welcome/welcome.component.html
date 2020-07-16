@@ -1,0 +1,13 @@
+<h1>Welcome {{name}} </h1>
+<div class="container">
+    <h4>You can manage your todos  </h4> 
+    <a [routerLink]="['/todos']">here</a>
+</div>
+<div>
+    <h3>click here for  new user </h3> 
+    <button (click)="getWelcomeData()" class="btn btn-success">welcomeDear</button>
+</div>
+
+<div>
+  <h3>Data comming from Api:  {{massage_new}}</h3>  
+</div>
